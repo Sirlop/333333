@@ -382,24 +382,24 @@ ignorelol.Active = true
 
 --Starters
 
-	local whsi5m41n6man4 = {             -- Uses User ID instead of name to avoid people changing their username.
-		"1728030823", "207420299",
-		"2294329008",
-		"3847117784",
-		"3941124829", "FraudCaller",          -- FraudCaller account terminated. so no ID
-		"3862134351",
-		"1387634731",
-		"43323375",
-		"3965349078",
-		"863333929",
-		"3539639814",
-		"3409116229",
-		"2478983620",
-		"1771970503",
-		"3500590135",
-		"3984772560"}
+local whsi5m41n6man4 = {             -- Uses User ID instead of name to avoid people changing their username.
+	"1728030823", "207420299",
+	"2294329008",
+	"3847117784",
+	"3941124829", "FraudCaller",          -- FraudCaller account terminated. so no ID
+	"3862134351",
+	"1387634731",
+	"43323375",
+	"3965349078",
+	"863333929",
+	"3539639814",
+	"3409116229",
+	"2478983620",
+	"1771970503",
+	"3500590135",
+	"3984772560"}
 
-if table.find(whsi5m41n6man4, game.Players.LocalPlayer.UserID) then
+if table.find(whsi5m41n6man4, game.Players.LocalPlayer.UserId) then
 	game.Workspace:GetChildren()
 else
 	u0mn32mal513452()
@@ -2047,9 +2047,9 @@ Strollerfalse.MouseButton1Down:Connect(function()
 		wait(0.1)
 		if game:GetService('Players').LocalPlayer.Character.Humanoid.Sit == true then
 			repeat
-			game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
-			game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Anchored = true
-			game:GetService('Players').LocalPlayer.Character.Torso.Anchored = false
+				game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+				game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Anchored = true
+				game:GetService('Players').LocalPlayer.Character.Torso.Anchored = false
 				game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
 			until
 			game:GetService('Players').LocalPlayer.Character.Humanoid.Sit == false
@@ -2324,7 +2324,7 @@ end)
 flingfalse.MouseButton1Down:Connect(function()
 	flingtrue.Visible = true
 	flingfalse.Visible = false
-	
+
 	while flingtrue.Visible == true do        -- AI finds 'Part' in every player's torso using GetChildren() if there is it will kill him
 		local plr = game.Players.LocalPlayer
 		local others = {}
@@ -2337,9 +2337,9 @@ flingfalse.MouseButton1Down:Connect(function()
 		table.remove(OtherPlayers, table.find(OtherPlayers, LocalPlayer))
 
 		local children = OtherPlayers.Character.Torso:GetChildren()
-		
+
 		local count = #children
-		
+
 		if count > 100 then
 			local PartDetector = OtherPlayers.Character.Torso:FindFirstChild("Part")
 			if PartDetector then
@@ -2351,10 +2351,10 @@ flingfalse.MouseButton1Down:Connect(function()
 				table.find(PartDetector, OtherPlayers.Character.Torso)
 			end
 		end
-		
+
 		game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()
 		wait(0.1)
-		end
+	end
 end)
 
 flingtrue.MouseButton1Down:Connect(function()
@@ -2384,7 +2384,7 @@ noclipfalse.MouseButton1Down:Connect(function()
 	Noclipping = nil
 	local speaker = game.Players.LocalPlayer
 	local floatName = randomString()
-	
+
 	local Clip = false
 	wait(0.1)
 	local function NoclipLoop()
@@ -2402,7 +2402,7 @@ end)
 nocliptrue.MouseButton1Down:Connect(function()
 	nocliptrue.Visible = false
 	noclipfalse.Visible = true
-	
+
 	if Noclipping then
 		Noclipping:Disconnect()
 	end
