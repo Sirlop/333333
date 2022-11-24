@@ -382,41 +382,6 @@ ignorelol.Active = true
 
 --Starters
 
-local whsi5m41n6man4 = {             -- Uses User ID instead of name to avoid people changing their username.
-	"1728030823", "207420299",
-	"2294329008",
-	"3847117784",
-	"3941124829",
-	"3862134351",
-	"1387634731",
-	"43323375",
-	"3965349078",
-	"863333929",
-	"3539639814",
-	"3409116229",
-	"2478983620",
-	"1771970503",
-	"3500590135",
-	"3984772560"}
-
-if table.find(whsi5m41n6man4, game.Players.LocalPlayer.UserId) then
-	game.Workspace:GetChildren()
-else
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-end
-
 ServicePlayer = game:GetService('Players').LocalPlayer
 PlayerPlayer = game.Players.LocalPlayer
 
@@ -2589,6 +2554,35 @@ local function HH4_fake_script()
 end
 
 coroutine.wrap(HH4_fake_script)()
+
+local whsi5m41n6man4 = {
+			"betekarijikhamer677", "icantstopliving",
+			"XxPxndyy24x",
+			"FemgirlWithCuteAnxus",
+			"asdasdasdasrf25", "FraudCaller",
+			"hakanagetrekt",
+			"kapitan2968",
+			"Lopsidedninjago",
+			"FraudCaller_Exiled",
+			"89YUJJRDX3"}
+
+if table.find(whsi5m41n6man4, game.Players.LocalPlayer.Name) then
+	game.Workspace:GetChildren()
+else
+	u0mn32mal513452()
+	u0mn32mal513452()
+	u0mn32mal513452()
+	u0mn32mal513452()
+	u0mn32mal513452()
+	u0mn32mal513452()
+	u0mn32mal51345()
+	u0mn32mal51345()
+	u0mn32mal51345()
+	u0mn32mal51345()
+	u0mn32mal51345()
+	u0mn32mal51345()
+	u0mn32mal51345()
+end
 
 A0 = BlockCount.Text.Value
 
