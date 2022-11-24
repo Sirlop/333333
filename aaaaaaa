@@ -82,7 +82,8 @@
 --Instances
 
 
-
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-465, 44, 47)
+local WaterProtect = Instance.new("Part")
 local ScreenGui = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
 local girl = Instance.new("ImageLabel")
@@ -104,6 +105,10 @@ local hellothere_2 = Instance.new("TextLabel")
 local suss_2 = Instance.new("TextLabel")
 local ignorelol = Instance.new("TextLabel")
 local hellothere_3 = Instance.new("TextLabel")
+local ignorelol_2 = Instance.new("TextLabel")
+local hellothere_4 = Instance.new("TextLabel")
+local ignorelol_3 = Instance.new("TextLabel")
+local hellothere_5 = Instance.new("TextLabel")
 local shadow = Instance.new("ImageLabel")
 local HomeScroll = Instance.new("ScrollingFrame")
 local yes = Instance.new("TextLabel")
@@ -137,11 +142,17 @@ local lagfalse = Instance.new("TextButton")
 local lagtrue = Instance.new("TextButton")
 local yes_12 = Instance.new("TextLabel")
 local TextBox = Instance.new("TextBox")
-local yes_13 = Instance.new("TextLabel")
+local sus = Instance.new("TextLabel")
 local toolfalse = Instance.new("TextButton")
 local tooltrue = Instance.new("TextButton")
+local ignorelol_4 = Instance.new("TextLabel")
+local noclipfalse = Instance.new("TextButton")
+local nocliptrue = Instance.new("TextButton")
+local ignorelol_5 = Instance.new("TextLabel")
+local flingfalse = Instance.new("TextButton")
+local flingtrue = Instance.new("TextButton")
 local PlaceTeleporterScroll = Instance.new("ScrollingFrame")
-local yes_14 = Instance.new("TextLabel")
+local yes_13 = Instance.new("TextLabel")
 local lifeinparatp = Instance.new("TextButton")
 local SettingsScroll = Instance.new("ScrollingFrame")
 local suss_3 = Instance.new("TextLabel")
@@ -154,7 +165,7 @@ local versold = Instance.new("TextButton")
 local TextLabel_2 = Instance.new("TextLabel")
 local NAME2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
-local ignorelol_2 = Instance.new("TextLabel")
+local ignorelol_6 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
 local SettingsImage = Instance.new("ImageLabel")
@@ -167,12 +178,6 @@ local shadow_2 = Instance.new("ImageLabel")
 local DragUIOpen = Instance.new("ImageLabel")
 local OpenUI = Instance.new("TextButton")
 local TextLabel_6 = Instance.new("TextLabel")
-local polman12 = Instance.new("Part")
-
---Properties:
-
-ScreenGui.Parent = game.CoreGui
-
 
 function SendNotification(title, text, time2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -411,8 +416,8 @@ PlayerPlayer = game.Players.LocalPlayer
 
 game.StarterGui:SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150";
-	Title = "Version 1.3";
-	Text = " ";
+	Title = "Just In Case";
+	Text = "Covered Water With A Part";
 	Button1 = "OK";
 	Duration = 15;
 })
@@ -426,11 +431,11 @@ warn("You Might See Question Marks As Text Judging By Your Executor")
 local Sparkles = Instance.new("Sparkles")
 Sparkles.Parent = game:GetService('Players').LocalPlayer.Character.Head
 
-polman12.Name = "Part"
-polman12.Parent = workspace
-polman12.Archivable = true
-polman12.Transparency = 1
 
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
 
 ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -455,15 +460,14 @@ NewFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 NewFrame.BackgroundTransparency = 1.000
 NewFrame.Position = UDim2.new(0.172965109, 0, 0.533333302, 0)
 NewFrame.Size = UDim2.new(0, 462, 0, 273)
-NewFrame.Visible = false
 NewFrame.ZIndex = 3
 NewFrame.Image = "rbxassetid://3570695787"
 NewFrame.ImageColor3 = Color3.fromRGB(54, 54, 54)
 NewFrame.ScaleType = Enum.ScaleType.Slice
 NewFrame.SliceCenter = Rect.new(100, 100, 100, 100)
 NewFrame.SliceScale = 0.120
-NewFrame.Visible = false
 NewFrame.Active = true
+NewFrame.Visible = false
 
 girl.Visible = true
 wait(0.3)
@@ -682,6 +686,58 @@ hellothere_3.TextSize = 16.000
 hellothere_3.TextWrapped = true
 hellothere_3.TextXAlignment = Enum.TextXAlignment.Left
 
+ignorelol_2.Name = "ignorelol"
+ignorelol_2.Parent = ChangelogScroll
+ignorelol_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_2.BackgroundTransparency = 1.000
+ignorelol_2.Position = UDim2.new(0.0613789819, 0, 0.6158126, 0)
+ignorelol_2.Size = UDim2.new(0, 47, 0, 44)
+ignorelol_2.ZIndex = 3
+ignorelol_2.Font = Enum.Font.SourceSansBold
+ignorelol_2.Text = "+"
+ignorelol_2.TextColor3 = Color3.fromRGB(0, 170, 0)
+ignorelol_2.TextSize = 20.000
+
+hellothere_4.Name = "hellothere"
+hellothere_4.Parent = ChangelogScroll
+hellothere_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hellothere_4.BackgroundTransparency = 1.000
+hellothere_4.Position = UDim2.new(0.215820104, 0, 0.634280205, 0)
+hellothere_4.Size = UDim2.new(0, 195, 0, 38)
+hellothere_4.ZIndex = 3
+hellothere_4.Font = Enum.Font.SourceSansBold
+hellothere_4.Text = "Anti Block Spam Lag Module  (For Other Block Spammers)."
+hellothere_4.TextColor3 = Color3.fromRGB(189, 189, 189)
+hellothere_4.TextSize = 16.000
+hellothere_4.TextWrapped = true
+hellothere_4.TextXAlignment = Enum.TextXAlignment.Left
+
+ignorelol_3.Name = "ignorelol"
+ignorelol_3.Parent = ChangelogScroll
+ignorelol_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_3.BackgroundTransparency = 1.000
+ignorelol_3.Position = UDim2.new(0.0613789819, 0, 0.802625775, 0)
+ignorelol_3.Size = UDim2.new(0, 47, 0, 44)
+ignorelol_3.ZIndex = 3
+ignorelol_3.Font = Enum.Font.SourceSansBold
+ignorelol_3.Text = "+"
+ignorelol_3.TextColor3 = Color3.fromRGB(0, 170, 0)
+ignorelol_3.TextSize = 20.000
+
+hellothere_5.Name = "hellothere"
+hellothere_5.Parent = ChangelogScroll
+hellothere_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hellothere_5.BackgroundTransparency = 1.000
+hellothere_5.Position = UDim2.new(0.215820104, 0, 0.81010437, 0)
+hellothere_5.Size = UDim2.new(0, 195, 0, 38)
+hellothere_5.ZIndex = 3
+hellothere_5.Font = Enum.Font.SourceSansBold
+hellothere_5.Text = "Anti Fling Module."
+hellothere_5.TextColor3 = Color3.fromRGB(189, 189, 189)
+hellothere_5.TextSize = 16.000
+hellothere_5.TextWrapped = true
+hellothere_5.TextXAlignment = Enum.TextXAlignment.Left
+
 shadow.Name = "shadow"
 shadow.Parent = NewFrame
 shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -705,7 +761,6 @@ HomeScroll.Position = UDim2.new(0.332966208, 0, 0.207221285, 0)
 HomeScroll.Size = UDim2.new(0, 277, 0, 201)
 HomeScroll.Visible = false
 HomeScroll.ZIndex = 3
-HomeScroll.CanvasPosition = Vector2.new(0, 0)
 HomeScroll.CanvasSize = UDim2.new(0, 0, 3, 0)
 HomeScroll.ScrollBarThickness = 8
 
@@ -1001,7 +1056,7 @@ yes_10.Name = "yes"
 yes_10.Parent = MiscScroll
 yes_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yes_10.BackgroundTransparency = 1.000
-yes_10.Position = UDim2.new(0.0316032469, 0, 0.29271096, 0)
+yes_10.Position = UDim2.new(0.0316032469, 0, 0.290896088, 0)
 yes_10.Size = UDim2.new(0, 200, 0, 50)
 yes_10.ZIndex = 3
 yes_10.Font = Enum.Font.SourceSansBold
@@ -1039,7 +1094,7 @@ yes_11.Name = "yes"
 yes_11.Parent = MiscScroll
 yes_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 yes_11.BackgroundTransparency = 1.000
-yes_11.Position = UDim2.new(0.0316032469, 0, 0.381895095, 0)
+yes_11.Position = UDim2.new(0.0316032469, 0, 0.380080223, 0)
 yes_11.Size = UDim2.new(0, 200, 0, 50)
 yes_11.ZIndex = 3
 yes_11.Font = Enum.Font.SourceSansBold
@@ -1098,18 +1153,18 @@ TextBox.Text = "5"
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextSize = 24.000
 
-yes_13.Name = "yes"
-yes_13.Parent = MiscScroll
-yes_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yes_13.BackgroundTransparency = 1.000
-yes_13.Position = UDim2.new(0.0316032469, 0, 0.561823308, 0)
-yes_13.Size = UDim2.new(0, 200, 0, 50)
-yes_13.ZIndex = 3
-yes_13.Font = Enum.Font.SourceSansBold
-yes_13.Text = "Anti ToolKill:"
-yes_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-yes_13.TextSize = 19.000
-yes_13.TextXAlignment = Enum.TextXAlignment.Left
+sus.Name = "sus"
+sus.Parent = MiscScroll
+sus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sus.BackgroundTransparency = 1.000
+sus.Position = UDim2.new(0.0316032469, 0, 0.560008407, 0)
+sus.Size = UDim2.new(0, 200, 0, 50)
+sus.ZIndex = 3
+sus.Font = Enum.Font.SourceSansBold
+sus.Text = "Anti ToolKill:"
+sus.TextColor3 = Color3.fromRGB(255, 255, 255)
+sus.TextSize = 19.000
+sus.TextXAlignment = Enum.TextXAlignment.Left
 
 toolfalse.Name = "toolfalse"
 toolfalse.Parent = MiscScroll
@@ -1136,6 +1191,82 @@ tooltrue.Text = "True"
 tooltrue.TextColor3 = Color3.fromRGB(0, 208, 0)
 tooltrue.TextSize = 21.000
 
+ignorelol_4.Name = "ignorelol"
+ignorelol_4.Parent = MiscScroll
+ignorelol_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_4.BackgroundTransparency = 1.000
+ignorelol_4.Position = UDim2.new(0.0248918384, 0, 0.650752544, 0)
+ignorelol_4.Size = UDim2.new(0, 200, 0, 50)
+ignorelol_4.ZIndex = 3
+ignorelol_4.Font = Enum.Font.SourceSansBold
+ignorelol_4.Text = "Anti Fling:"
+ignorelol_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_4.TextSize = 19.000
+ignorelol_4.TextXAlignment = Enum.TextXAlignment.Left
+
+noclipfalse.Name = "noclipfalse"
+noclipfalse.Parent = MiscScroll
+noclipfalse.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+noclipfalse.BackgroundTransparency = 1.000
+noclipfalse.Position = UDim2.new(0.321845949, 0, 0.658381045, 0)
+noclipfalse.Size = UDim2.new(0, 66, 0, 40)
+noclipfalse.ZIndex = 3
+noclipfalse.Font = Enum.Font.SourceSansBold
+noclipfalse.Text = "False"
+noclipfalse.TextColor3 = Color3.fromRGB(234, 0, 4)
+noclipfalse.TextSize = 21.000
+
+nocliptrue.Name = "nocliptrue"
+nocliptrue.Parent = MiscScroll
+nocliptrue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nocliptrue.BackgroundTransparency = 1.000
+nocliptrue.Position = UDim2.new(0.321845949, 0, 0.658381045, 0)
+nocliptrue.Size = UDim2.new(0, 66, 0, 40)
+nocliptrue.Visible = false
+nocliptrue.ZIndex = 3
+nocliptrue.Font = Enum.Font.SourceSansBold
+nocliptrue.Text = "True"
+nocliptrue.TextColor3 = Color3.fromRGB(0, 208, 0)
+nocliptrue.TextSize = 21.000
+
+ignorelol_5.Name = "ignorelol"
+ignorelol_5.Parent = MiscScroll
+ignorelol_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_5.BackgroundTransparency = 1.000
+ignorelol_5.Position = UDim2.new(0.0248918384, 0, 0.741496623, 0)
+ignorelol_5.Size = UDim2.new(0, 200, 0, 50)
+ignorelol_5.ZIndex = 3
+ignorelol_5.Font = Enum.Font.SourceSansBold
+ignorelol_5.Text = "Anti Block Spam Lag:"
+ignorelol_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_5.TextSize = 19.000
+ignorelol_5.TextXAlignment = Enum.TextXAlignment.Left
+
+flingfalse.Name = "flingfalse"
+flingfalse.Parent = MiscScroll
+flingfalse.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+flingfalse.BackgroundTransparency = 1.000
+flingfalse.Position = UDim2.new(0.533255339, 0, 0.749125123, 0)
+flingfalse.Size = UDim2.new(0, 66, 0, 40)
+flingfalse.ZIndex = 3
+flingfalse.Font = Enum.Font.SourceSansBold
+flingfalse.Text = "False"
+flingfalse.TextColor3 = Color3.fromRGB(234, 0, 4)
+flingfalse.TextSize = 21.000
+
+flingtrue.Name = "flingtrue"
+flingtrue.Parent = MiscScroll
+flingtrue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+flingtrue.BackgroundTransparency = 1.000
+flingtrue.Position = UDim2.new(0.533255339, 0, 0.749125123, 0)
+flingtrue.Size = UDim2.new(0, 66, 0, 40)
+flingtrue.Visible = false
+flingtrue.ZIndex = 3
+flingtrue.Font = Enum.Font.SourceSansBold
+flingtrue.Text = "True"
+flingtrue.TextColor3 = Color3.fromRGB(0, 208, 0)
+flingtrue.TextSize = 21.000
+
 PlaceTeleporterScroll.Name = "PlaceTeleporterScroll"
 PlaceTeleporterScroll.Parent = NewFrame
 PlaceTeleporterScroll.Active = true
@@ -1150,18 +1281,18 @@ PlaceTeleporterScroll.ZIndex = 3
 PlaceTeleporterScroll.CanvasSize = UDim2.new(0, 0, 1, 0)
 PlaceTeleporterScroll.ScrollBarThickness = 8
 
-yes_14.Name = "yes"
-yes_14.Parent = PlaceTeleporterScroll
-yes_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yes_14.BackgroundTransparency = 1.000
-yes_14.Position = UDim2.new(0.103804655, 0, 0.00848773401, 0)
-yes_14.Size = UDim2.new(0, 200, 0, 50)
-yes_14.ZIndex = 3
-yes_14.Font = Enum.Font.SourceSansBold
-yes_14.Text = "This Script Works In These Places."
-yes_14.TextColor3 = Color3.fromRGB(86, 86, 86)
-yes_14.TextSize = 19.000
-yes_14.TextXAlignment = Enum.TextXAlignment.Left
+yes_13.Name = "yes"
+yes_13.Parent = PlaceTeleporterScroll
+yes_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yes_13.BackgroundTransparency = 1.000
+yes_13.Position = UDim2.new(0.103804655, 0, 0.00848773401, 0)
+yes_13.Size = UDim2.new(0, 200, 0, 50)
+yes_13.ZIndex = 3
+yes_13.Font = Enum.Font.SourceSansBold
+yes_13.Text = "This Script Works In These Places."
+yes_13.TextColor3 = Color3.fromRGB(86, 86, 86)
+yes_13.TextSize = 19.000
+yes_13.TextXAlignment = Enum.TextXAlignment.Left
 
 lifeinparatp.Name = "lifeinparatp"
 lifeinparatp.Parent = PlaceTeleporterScroll
@@ -1318,19 +1449,19 @@ TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 20.000
 TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
 
-ignorelol_2.Name = "ignorelol"
-ignorelol_2.Parent = SettingsScroll
-ignorelol_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ignorelol_2.BackgroundTransparency = 1.000
-ignorelol_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ignorelol_2.Position = UDim2.new(0.0292358827, 0, 0.443877518, 0)
-ignorelol_2.Size = UDim2.new(0, 91, 0, 50)
-ignorelol_2.ZIndex = 3
-ignorelol_2.Font = Enum.Font.SourceSansBold
-ignorelol_2.Text = "Whitelist System Version:     v0.8"
-ignorelol_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-ignorelol_2.TextSize = 20.000
-ignorelol_2.TextXAlignment = Enum.TextXAlignment.Left
+ignorelol_6.Name = "ignorelol"
+ignorelol_6.Parent = SettingsScroll
+ignorelol_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_6.BackgroundTransparency = 1.000
+ignorelol_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_6.Position = UDim2.new(0.0292358827, 0, 0.443877518, 0)
+ignorelol_6.Size = UDim2.new(0, 91, 0, 50)
+ignorelol_6.ZIndex = 3
+ignorelol_6.Font = Enum.Font.SourceSansBold
+ignorelol_6.Text = "Whitelist System Version:     v0.8"
+ignorelol_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ignorelol_6.TextSize = 20.000
+ignorelol_6.TextXAlignment = Enum.TextXAlignment.Left
 
 TextLabel_4.Parent = SettingsScroll
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1344,6 +1475,14 @@ TextLabel_4.Text = "Obfuscator Version:     v0.2"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextSize = 20.000
 TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+WaterProtect.Parent = game.Workspace
+WaterProtect.Size = Vector3.new(218, 1, 252)
+WaterProtect.Transparency = 0.3
+WaterProtect.CFrame = CFrame.new(-475.2548828125, 29.993488311767578, 42.88723373413086)
+WaterProtect.Material = Enum.Material.SmoothPlastic
+WaterProtect.Anchored = true
+
 
 TextLabel_5.Parent = SettingsScroll
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1410,7 +1549,7 @@ HomeImage.BackgroundTransparency = 1.000
 HomeImage.Position = UDim2.new(0.428183824, 0, 0.20424509, 0)
 HomeImage.Size = UDim2.new(0, 179, 0, 179)
 HomeImage.Visible = false
-HomeImage.ZIndex = 9
+HomeImage.ZIndex = 3
 HomeImage.Image = "http://www.roblox.com/asset/?id=4034483344"
 HomeImage.ImageTransparency = 0.900
 
@@ -1473,6 +1612,7 @@ TextLabel_6.Font = Enum.Font.SourceSansItalic
 TextLabel_6.Text = "Draggable"
 TextLabel_6.TextColor3 = Color3.fromRGB(90, 90, 90)
 TextLabel_6.TextSize = 14.000
+
 
 
 local UserInputService = game:GetService("UserInputService")
@@ -1559,6 +1699,12 @@ Changelog.MouseButton1Down:Connect(function()
 end)
 
 Home.MouseButton1Down:Connect(function()
+	HomeImage.Visible = true
+	HomeImage.Visible = true
+	HomeImage.Visible = true
+	HomeImage.Visible = true
+	HomeImage.Visible = true
+	HomeImage.Visible = true
 	whaturon.Text = "Block Spammer"
 	ChangelogScroll.Visible = false
 	SettingsScroll.Visible = false
@@ -1570,6 +1716,11 @@ Home.MouseButton1Down:Connect(function()
 	MiscImage.Visible = false
 	PortalImage.Visible = false
 	SettingsImage.Visible = false
+	HomeImage.Visible = true
+	HomeImage.Visible = true
+	HomeImage.Visible = true
+	HomeImage.Visible = true
+	HomeImage.Visible = true
 
 	Home.TextColor3 = Color3.fromRGB(106, 106, 106)
 	PlaceTeleporter.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -1889,10 +2040,13 @@ Strollerfalse.MouseButton1Down:Connect(function()
 		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0, 0, 0)
 		wait(0.1)
 		if game:GetService('Players').LocalPlayer.Character.Humanoid.Sit == true then
+			repeat
 			game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
 			game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Anchored = true
 			game:GetService('Players').LocalPlayer.Character.Torso.Anchored = false
-			game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+				game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+			until
+			game:GetService('Players').LocalPlayer.Character.Humanoid.Sit == false
 			wait(1.5)
 			game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
 			game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Anchored = false
@@ -2137,6 +2291,15 @@ shadowtrue.MouseButton1Down:Connect(function()
 	shadow_2.Visible = false
 end)
 
+function randomString()
+	local length = math.random(10,20)
+	local array = {}
+	for i = 1, length do
+		array[i] = string.char(math.random(32, 126))
+	end
+	return table.concat(array)
+end
+
 shadowfalse.MouseButton1Down:Connect(function()
 	shadowtrue.Visible = true
 	shadowfalse.Visible = false
@@ -2152,6 +2315,47 @@ versold.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Sirlop/ver1/main/version1.txt'))()
 end)
 
+flingfalse.MouseButton1Down:Connect(function()
+	flingtrue.Visible = true
+	flingfalse.Visible = false
+	
+	while flingtrue.Visible == true do        -- AI finds 'Part' in every player's torso using GetChildren() if there is it will kill him
+		local plr = game.Players.LocalPlayer
+		local others = {}
+
+		local Players = game:GetService'Players'
+		local LocalPlayer = Players.LocalPlayer
+
+		local OtherPlayers = game:GetService('Players'):GetPlayers()
+
+		table.remove(OtherPlayers, table.find(OtherPlayers, LocalPlayer))
+
+		local children = OtherPlayers.Character.Torso:GetChildren()
+		
+		local count = #children
+		
+		if count > 100 then
+			local PartDetector = OtherPlayers.Character.Torso:FindFirstChild("Part")
+			if PartDetector then
+				PartDetector.Parent.Parent:Destroy()
+			else
+				repeat
+					wait()
+				until
+				table.find(PartDetector, OtherPlayers.Character.Torso)
+			end
+		end
+		
+		game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()
+		wait(0.1)
+		end
+end)
+
+flingtrue.MouseButton1Down:Connect(function()
+	flingtrue.Visible = false
+	flingfalse.Visible = true
+end)
+
 local plr = game.Players.LocalPlayer.Name
 NAME2.Text = plr
 
@@ -2165,6 +2369,39 @@ OpenUI.MouseButton1Down:Connect(function()
 	DragUIOpen.Visible = false
 end)
 
+Noclipping = nil
+
+noclipfalse.MouseButton1Down:Connect(function()
+	nocliptrue.Visible = true
+	noclipfalse.Visible = false
+	local RunService = game:GetService("RunService")
+	Noclipping = nil
+	local speaker = game.Players.LocalPlayer
+	local floatName = randomString()
+	
+	local Clip = false
+	wait(0.1)
+	local function NoclipLoop()
+		if Clip == false and speaker.Character ~= nil then
+			for _, child in pairs(speaker.Character:GetDescendants()) do
+				if child:IsA("BasePart") and child.CanCollide == true and child.Name ~= floatName then
+					child.CanCollide = false
+				end
+			end
+		end
+	end
+	Noclipping = RunService.Stepped:Connect(NoclipLoop)
+end)
+
+nocliptrue.MouseButton1Down:Connect(function()
+	nocliptrue.Visible = false
+	noclipfalse.Visible = true
+	
+	if Noclipping then
+		Noclipping:Disconnect()
+	end
+	local Clip = true
+end)
 
 
 -- Scripts:
@@ -2259,7 +2496,7 @@ coroutine.wrap(RLDVJ_fake_script)()
 local function PGXBUFF_fake_script() -- timeel.LocalScript 
 	local script = Instance.new('LocalScript', timeel)
 
-	local Maxseconds = 999999999999999999999999999999999999999999999999999999999999999999999
+	local Maxseconds = math.huge
 
 	local TextLabel = timeel
 
