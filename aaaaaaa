@@ -386,7 +386,7 @@ local whsi5m41n6man4 = {             -- Uses User ID instead of name to avoid pe
 	"1728030823", "207420299",
 	"2294329008",
 	"3847117784",
-	"3941124829", "FraudCaller",          -- FraudCaller account terminated. so no ID
+	"3941124829",
 	"3862134351",
 	"1387634731",
 	"43323375",
