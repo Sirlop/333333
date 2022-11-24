@@ -188,6 +188,17 @@ function SendNotification(title, text, time2)
 	})
 end
 
+local whsi5m41n6man4 = {
+			"betekarijikhamer677", "icantstopliving",
+			"XxPxndyy24x",
+			"FemgirlWithCuteAnxus",
+			"asdasdasdasrf25", "FraudCaller",
+			"hakanagetrekt",
+			"kapitan2968",
+			"Lopsidedninjago",
+			"FraudCaller_Exiled",
+			"89YUJJRDX3"}
+
 function Terminate()
 	game.CoreGui.ScreenGui:Destroy()
 	game.CoreGui.ScreenGui:Destroy()
@@ -2554,35 +2565,6 @@ local function HH4_fake_script()
 end
 
 coroutine.wrap(HH4_fake_script)()
-
-local whsi5m41n6man4 = {
-			"betekarijikhamer677", "icantstopliving",
-			"XxPxndyy24x",
-			"FemgirlWithCuteAnxus",
-			"asdasdasdasrf25", "FraudCaller",
-			"hakanagetrekt",
-			"kapitan2968",
-			"Lopsidedninjago",
-			"FraudCaller_Exiled",
-			"89YUJJRDX3"}
-
-if table.find(whsi5m41n6man4, game.Players.LocalPlayer.Name) then
-	game.Workspace:GetChildren()
-else
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal513452()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-	u0mn32mal51345()
-end
 
 A0 = BlockCount.Text.Value
 
