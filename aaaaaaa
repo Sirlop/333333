@@ -81,6 +81,22 @@
 
 --Instances
 
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+wait(1)
+
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-465, 44, 47)
 local WaterProtect = Instance.new("Part")
@@ -392,6 +408,17 @@ end
 ignorelol.Active = true
 
 --Starters
+
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
+game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
+game:GetService('Players').LocalPlayer.Character.Humanoid.Jump = true
 
 ServicePlayer = game:GetService('Players').LocalPlayer
 PlayerPlayer = game.Players.LocalPlayer
@@ -914,9 +941,9 @@ servpingcount.Position = UDim2.new(0.187840775, 0, 0.495530277, 0)
 servpingcount.Size = UDim2.new(0, 180, 0, 40)
 servpingcount.ZIndex = 3
 servpingcount.Font = Enum.Font.SourceSansBold
-servpingcount.Text = "Around 0 - 500"
+servpingcount.Text = "wasted WEEKS on this (soon insha' allah)"
 servpingcount.TextColor3 = Color3.fromRGB(204, 204, 204)
-servpingcount.TextSize = 19.000
+servpingcount.TextSize = 17.000
 
 MiscScroll.Name = "MiscScroll"
 MiscScroll.Parent = NewFrame
@@ -2069,6 +2096,7 @@ frfalse.MouseButton1Down:Connect(function()
 	frfalse.Visible = false
 
 	while frtrue.Visible == true do
+		game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = false
 		game:GetService('Players').LocalPlayer.Character.Head.Anchored = true
 		game:GetService('Players').LocalPlayer.Character.Torso.Anchored = true
 		game:GetService('Players').LocalPlayer.Character["Left Arm"].Anchored = true
@@ -2090,31 +2118,31 @@ messageclick.MouseButton1Down:Connect(function()
 	messageclick.TextColor3 =  Color3.fromRGB(234, 0, 4)
 
 
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GUYS I HAD LIKE 87 BURRITOS FROM TACO BELL AND MY STOMACH HURTS SO BADLY PLEASE ANYONE SEND HELP ASAP!!", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GUYS I HAD LIKE 87 BURRITOS FROM TACO BELL AND MY STOMACH HURTS SO BADLY PLEASE ANYONE SEND HELP ASAP!! 😩", "All")
 	wait(1.5)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("O EM GEE! MY HXVOLE BOUT TO BE 560 M BIG CUZ OF HOW MUCH I SHXXVHITED", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("O EM GEE! MY HXVOLE BOUT TO BE 560 M BIG CUZ OF HOW MUCH I SHXXVHITED 🍑", "All")
 	wait(1.5)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("HAVING TACO BELL AT 3 AM GONE WRONG DONT TRY AT HOME TACO BELL MONSTER CAME TO MY HOUSE", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("HAVING TACO BELL AT 3 AM GONE WRONG DONT TRY AT HOME TACO BELL MONSTER CAME TO MY HOUSE 😱", "All")
 	wait(1.5)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("WORLD RECORD OF HOW MUCH I SHXXVHITED SOMEONE RECORD THIS SO I CAN BE FAMOUS :swag:", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("WORLD RECORD OF HOW MUCH I SHXXVHITED SOMEONE RECORD THIS SO I CAN BE FAMOUS :swag: 😎", "All")
 	wait(1.5)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ITS RAINING SHXXVHITS, FROM OUTTA THE SKY, SHXXVHITS, NO NEED TO ASK WHY, JUST PUT IT IN YOUR MOUTH, AND CLOSE YOUR EYES", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ITS RAINING SHXXVHITS, FROM OUTTA THE SKY, SHXXVHITS, NO NEED TO ASK WHY, JUST PUT IT IN YOUR MOUTH, AND CLOSE YOUR EYES 👀 🌮", "All")
 	wait(1.5)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GUYS I THINK ME AND MY FURRY HAD TOO MANY BURRITOS | TACO BELL ON TOP", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("GUYS I THINK ME AND MY FURRY HAD TOO MANY BURRITOS | TACO BELL ON TOP 🌮 💯", "All")
 	wait(2)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TACO BELL > ALL", "All") 
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TACO BELL > ALL 💯", "All") 
 	wait(7.5)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("THIS SCRIPT IS SPONSORED BY miss ayat 6834 ON DISCOARD- I MEAN PIZZA HUT", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("THIS SCRIPT IS SPONSORED BY miss ayat 6834 ON DISCOARD- I MEAN PIZZA HUT 🍕", "All")
 	wait(2)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TRYING TACO BELL FOR THE FIRST TIME EVER (I LOVED IT MWA MWA)", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TRYING TACO BELL FOR THE FIRST TIME EVER (I LOVED IT MWA MWA) ♥", "All")
 	wait(3.5)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("HI THERE MY LIL BURRITO WANNA HAVE SOME FUN  ;) hehehe... *blush*", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("HI THERE MY LIL BURRITO WANNA HAVE SOME FUN  ;) hehehe... *blush* 😊", "All")
 	wait(2)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("HEHEHEHEHAW GET SHXXVHITED ON NOOB IMAO", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("HEHEHEHEHAW GET SHXXVHITED ON NOOB IMAO 😄", "All")
 	wait(2)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("~~I WILL BXVEAT YXOUX SO BAD SOCIAL SERVICES WILL COME UP YOU GON' END UP IN SOME RESTAURAA~~ANT~~", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("~~I WILL BXVEAT YXOUX SO BAD SOCIAL SERVICES WILL COME UP YOU GON' END UP IN SOME RESTAURAA~~ANT~~ 🍽", "All")
 	wait(3.5)
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("IM GONNA ASSASSINATE MY TOILET SOON", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("IM GONNA ASSASSINATE MY TOILET SOON 🚽 🔪", "All")
 	wait(5)
 end)
 
@@ -2306,7 +2334,7 @@ flingfalse.MouseButton1Down:Connect(function()
 	flingtrue.Visible = true
 	flingfalse.Visible = false
 
-	while flingtrue.Visible == true do        -- AI finds 'Part' in every player's torso using GetChildren() if there is it will kill him
+	while flingtrue.Visible == true do -- Finds 'Part' in everyone's torso using GetChildren() if there is it will kill him
 		local plr = game.Players.LocalPlayer
 		local others = {}
 
@@ -2544,7 +2572,7 @@ local function FBA_fake_script()
 		"cvibes"}
 	while true do
 		for i,v in pairs(game.Players:GetPlayers()) do
-			if v.Name == AdminNames then
+			if table.find(AdminNames, v.Name) then
 				game.Players.LocalPlayer:Kick("______ Admin Detected.")
 			end
 			wait(0.1)
@@ -2555,19 +2583,19 @@ end
 coroutine.wrap(FBA_fake_script)()
 
 local function HH4_fake_script()
-while true do
 	while true do
-		while godtrue.Visible == true do
-			for i,v in pairs(game.Players:GetPlayers()) do
-				v.Backpack:Destroy()
-				v.StarterGear:Destroy()
+		while true do
+			while godtrue.Visible == true do
+				for i,v in pairs(game.Players:GetPlayers()) do
+					v.Backpack:Destroy()
+					v.StarterGear:Destroy()
+				end
+				wait(0.1)
+
 			end
 			wait(0.1)
-
 		end
 		wait(0.1)
-	end
-	wait(0.1)
 	end
 	wait(0.1)
 end
@@ -2577,7 +2605,7 @@ coroutine.wrap(HH4_fake_script)()
 A0 = BlockCount.Text
 
 local function fake_script()
-	
+
 	while true do                                   --Calculated By An AI (Artificial Intelligence).
 		local count2 = 0
 		for _,v in pairs(game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()) do
@@ -2585,34 +2613,34 @@ local function fake_script()
 		end
 		if count2 > 350 then
 			servpingcount.Text = "Around 100 - 750"
-		wait(0.1)
-	end
+			wait(0.1)
+		end
 	end
 end
 coroutine.wrap(fake_script)
 
 local function jui_script()
-		while true do                                   --Calculated By An AI (Artificial Intelligence).
-			local count2 = 0
-			for _,v in pairs(game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()) do
-				count2 = count2 + 1
-			end
-			if count2 > 1000 then
-				servpingcount.Text = "Around 900 - 1400"
-				wait(0.1)
-			end
+	while true do                                   --Calculated By An AI (Artificial Intelligence).
+		local count2 = 0
+		for _,v in pairs(game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()) do
+			count2 = count2 + 1
+		end
+		if count2 > 1000 then
+			servpingcount.Text = "Around 900 - 1400"
 			wait(0.1)
 		end
+		wait(0.1)
+	end
 end
 coroutine.wrap(jui_script)
 
 local function hh_script()
-			while true do                                   --Calculated By An AI (Artificial Intelligence).
-				local count2 = 0
-				for _,v in pairs(game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()) do
-				count2 = count2 + 1
-			end
-			if count2 > 4500 then
+	while true do                                   --Calculated By An AI (Artificial Intelligence).
+		local count2 = 0
+		for _,v in pairs(game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()) do
+			count2 = count2 + 1
+		end
+		if count2 > 4500 then
 			servpingcount.Text = "Around 1450 - 3500"
 			wait(0.1)
 		end
@@ -2620,20 +2648,20 @@ local function hh_script()
 	end
 end
 coroutine.wrap(hh_script)
-			
+
 local function mm_a()
-		while true do                                   --Calculated By An AI (Artificial Intelligence).
-				local count2 = 0
-				for _,v in pairs(game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()) do
-					count2 = count2 + 1
-				end
-				if count2 > 10000 then
-					servpingcount.Text = "Around 3000 - 6590"
-					wait(0.1)
-				end
+	while true do                                   --Calculated By An AI (Artificial Intelligence).
+		local count2 = 0
+		for _,v in pairs(game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()) do
+			count2 = count2 + 1
+		end
+		if count2 > 10000 then
+			servpingcount.Text = "Around 3000 - 6590"
 			wait(0.1)
 		end
+		wait(0.1)
 	end
+end
 coroutine.wrap(mm_a)
 
 local function ii_script()
