@@ -941,7 +941,7 @@ servpingcount.Position = UDim2.new(0.187840775, 0, 0.495530277, 0)
 servpingcount.Size = UDim2.new(0, 180, 0, 40)
 servpingcount.ZIndex = 3
 servpingcount.Font = Enum.Font.SourceSansBold
-servpingcount.Text = "wasted WEEKS on this (soon insha' allah)"
+servpingcount.Text = "wasted weeks on this shit"
 servpingcount.TextColor3 = Color3.fromRGB(204, 204, 204)
 servpingcount.TextSize = 17.000
 
