@@ -682,7 +682,7 @@ hellothere_3.Position = UDim2.new(0.215820104, 0, 0.304609895, 0)
 hellothere_3.Size = UDim2.new(0, 195, 0, 38)
 hellothere_3.ZIndex = 3
 hellothere_3.Font = Enum.Font.SourceSansBold
-hellothere_3.Text = "Extra Security Features."
+hellothere_3.Text = "TP Tool Giver."
 hellothere_3.TextColor3 = Color3.fromRGB(189, 189, 189)
 hellothere_3.TextSize = 16.000
 hellothere_3.TextWrapped = true
@@ -787,7 +787,7 @@ Execute.Size = UDim2.new(0, 200, 0, 50)
 Execute.ZIndex = 3
 Execute.Font = Enum.Font.SourceSansBold
 Execute.Text = "Execute"
-Execute.TextColor3 = Color3.fromRGB(0, 170, 0)
+Execute.TextColor3 = Color3.fromRGB(0, 208, 0)
 Execute.TextSize = 32.000
 
 Stop.Name = "Stop"
@@ -800,7 +800,7 @@ Stop.Visible = false
 Stop.ZIndex = 3
 Stop.Font = Enum.Font.SourceSansBold
 Stop.Text = "Stop"
-Stop.TextColor3 = Color3.fromRGB(170, 0, 0)
+Stop.TextColor3 = Color3.fromRGB(234, 0, 4)
 Stop.TextSize = 32.000
 
 timeel.Name = "timeel"
@@ -848,7 +848,7 @@ StartBlocks.Size = UDim2.new(0, 200, 0, 50)
 StartBlocks.ZIndex = 3
 StartBlocks.Font = Enum.Font.SourceSansBold
 StartBlocks.Text = "Start"
-StartBlocks.TextColor3 = Color3.fromRGB(0, 170, 0)
+StartBlocks.TextColor3 = Color3.fromRGB(0, 208, 0)
 StartBlocks.TextSize = 32.000
 
 confirmation.Name = "confirmation"
@@ -861,7 +861,7 @@ confirmation.Visible = false
 confirmation.ZIndex = 3
 confirmation.Font = Enum.Font.SourceSansBold
 confirmation.Text = "Confirm?"
-confirmation.TextColor3 = Color3.fromRGB(0, 170, 0)
+confirmation.TextColor3 = Color3.fromRGB(0, 208, 0)
 confirmation.TextSize = 32.000
 
 BlockCount.Name = "BlockCount"
@@ -934,7 +934,7 @@ servpingcount.Position = UDim2.new(0.187840775, 0, 0.495530277, 0)
 servpingcount.Size = UDim2.new(0, 180, 0, 40)
 servpingcount.ZIndex = 3
 servpingcount.Font = Enum.Font.SourceSansBold
-servpingcount.Text = "Calculating..."
+servpingcount.Text = "wasted weeks on this shit"
 servpingcount.TextColor3 = Color3.fromRGB(204, 204, 204)
 servpingcount.TextSize = 19.000
 
@@ -1927,6 +1927,18 @@ Execute.MouseButton1Down:connect(function()
 end)
 
 Stop.MouseButton1Down:connect(function()
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Anchored = false
 	game:GetService('Players').LocalPlayer.Character.Head.Anchored = false
 	game:GetService('Players').LocalPlayer.Character.Torso.Anchored = false
@@ -1950,6 +1962,22 @@ Stop.MouseButton1Down:connect(function()
 	Strollerfalse.Visible = true
 	confirmation.Active = false
 	Title.Active = false
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
 	if frtrue.Visible == true then
 		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Anchored = true
 	else
@@ -1965,6 +1993,22 @@ Stop.MouseButton1Down:connect(function()
 
 	game:GetService('Players').LocalPlayer.Character.Humanoid.Health = 0
 	game:GetService('Players').LocalPlayer.Character.Humanoid.Sit = true
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
+	game:GetService('Players').LocalPlayer.Character.Humanoid.RigType = Enum.HumanoidRigType.R15
 	local noclip = true
 	local char = game.Players.LocalPlayer.Character while true do
 		if noclip == true then
@@ -2021,6 +2065,7 @@ confirmation.MouseButton1Down:Connect(function()
 	Sound.SoundId = "rbxassetid://4612384434"
 	Sound.Looped = false
 	Sound:Play()
+
 
 	confirmation.Visible = false
 	StartBlocks.Visible = true
@@ -2349,39 +2394,21 @@ versold.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Sirlop/ver1/main/version1.txt'))()
 end)
 
+local a1 = {
+	confirmation.Active == true,
+	Stop.Visible == true
+}
+
 flingfalse.MouseButton1Down:Connect(function()
-	flingtrue.Visible = true
-	flingfalse.Visible = false
+	flingfalse.TextColor3 =  Color3.fromRGB(0, 208, 0)
+	wait(0.3)
+	flingfalse.TextColor3 =  Color3.fromRGB(234, 0, 4)
 
-	while flingtrue.Visible == true do -- Finds 'Part' in everyone's torso using GetChildren() if there is it will kill him
-		local plr = game.Players.LocalPlayer
-		local others = {}
-
-		local Players = game:GetService'Players'
-		local LocalPlayer = Players.LocalPlayer
-
-		local OtherPlayers = game:GetService('Players'):GetPlayers()
-
-		table.remove(OtherPlayers, table.find(OtherPlayers, LocalPlayer))
-
-		local children = OtherPlayers.Character.Torso:GetChildren()
-
-		local count = #children
-
-		if count > 100 then
-			local PartDetector = OtherPlayers.Character.Torso:FindFirstChild("Part")
-			if PartDetector then
-				PartDetector.Parent.Parent:Destroy()
-			else
-				repeat
-					wait()
-				until
-				table.find(PartDetector, OtherPlayers.Character.Torso)
-			end
+	for i,v in pairs(game:GetService('Players'):GetPlayers()) do
+		local PartDetector = v.Character.Torso:FindFirstChild("Part")
+		if PartDetector then
+			PartDetector.Parent.Parent:Destroy()
 		end
-
-		game:GetService('Players').LocalPlayer.Character.Torso:GetChildren()
-		wait(0.1)
 	end
 end)
 
@@ -2441,7 +2468,7 @@ tptoolgiv.MouseButton1Down:Connect(function()
 	tptoolgiv.TextColor3 =  Color3.fromRGB(0, 208, 0)
 	wait(0.3)
 	tptoolgiv.TextColor3 =  Color3.fromRGB(234, 0, 4)
-	
+
 	local IYMouse = game.Players.LocalPlayer:GetMouse()
 	local speaker = game.Players.LocalPlayer
 	local TpTool = Instance.new("Tool")
