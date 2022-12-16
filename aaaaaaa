@@ -99,6 +99,7 @@ wait(1)
 
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-465, 44, 47)
+
 local WaterProtect = Instance.new("Part")
 local ScreenGui = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
@@ -167,6 +168,8 @@ local nocliptrue = Instance.new("TextButton")
 local ignorelol_5 = Instance.new("TextLabel")
 local flingfalse = Instance.new("TextButton")
 local flingtrue = Instance.new("TextButton")
+local psmm = Instance.new("TextLabel")
+local tptoolgiv = Instance.new("TextButton")
 local PlaceTeleporterScroll = Instance.new("ScrollingFrame")
 local yes_13 = Instance.new("TextLabel")
 local lifeinparatp = Instance.new("TextButton")
@@ -194,6 +197,10 @@ local shadow_2 = Instance.new("ImageLabel")
 local DragUIOpen = Instance.new("ImageLabel")
 local OpenUI = Instance.new("TextButton")
 local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
 
 function SendNotification(title, text, time2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -440,12 +447,6 @@ warn("You Might See Question Marks As Text Judging By Your Executor")
 local Sparkles = Instance.new("Sparkles")
 Sparkles.Parent = game:GetService('Players').LocalPlayer.Character.Head
 
-
-
---Properties:
-
-ScreenGui.Parent = game.CoreGui
-
 ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
@@ -475,14 +476,6 @@ NewFrame.ImageColor3 = Color3.fromRGB(54, 54, 54)
 NewFrame.ScaleType = Enum.ScaleType.Slice
 NewFrame.SliceCenter = Rect.new(100, 100, 100, 100)
 NewFrame.SliceScale = 0.120
-NewFrame.Active = true
-NewFrame.Visible = false
-
-girl.Visible = true
-wait(0.3)
-girl.Visible = false
-wait(0.1)
-NewFrame.Visible = true
 
 de.Name = "de"
 de.Parent = NewFrame
@@ -794,7 +787,7 @@ Execute.Size = UDim2.new(0, 200, 0, 50)
 Execute.ZIndex = 3
 Execute.Font = Enum.Font.SourceSansBold
 Execute.Text = "Execute"
-Execute.TextColor3 = Color3.fromRGB(0, 208, 0)
+Execute.TextColor3 = Color3.fromRGB(0, 170, 0)
 Execute.TextSize = 32.000
 
 Stop.Name = "Stop"
@@ -807,7 +800,7 @@ Stop.Visible = false
 Stop.ZIndex = 3
 Stop.Font = Enum.Font.SourceSansBold
 Stop.Text = "Stop"
-Stop.TextColor3 = Color3.fromRGB(234, 0, 4)
+Stop.TextColor3 = Color3.fromRGB(170, 0, 0)
 Stop.TextSize = 32.000
 
 timeel.Name = "timeel"
@@ -855,7 +848,7 @@ StartBlocks.Size = UDim2.new(0, 200, 0, 50)
 StartBlocks.ZIndex = 3
 StartBlocks.Font = Enum.Font.SourceSansBold
 StartBlocks.Text = "Start"
-StartBlocks.TextColor3 = Color3.fromRGB(0, 208, 0)
+StartBlocks.TextColor3 = Color3.fromRGB(0, 170, 0)
 StartBlocks.TextSize = 32.000
 
 confirmation.Name = "confirmation"
@@ -868,7 +861,7 @@ confirmation.Visible = false
 confirmation.ZIndex = 3
 confirmation.Font = Enum.Font.SourceSansBold
 confirmation.Text = "Confirm?"
-confirmation.TextColor3 = Color3.fromRGB(0, 208, 0)
+confirmation.TextColor3 = Color3.fromRGB(0, 170, 0)
 confirmation.TextSize = 32.000
 
 BlockCount.Name = "BlockCount"
@@ -916,7 +909,7 @@ pingcount.Position = UDim2.new(0.198671103, 0, 0.395408183, 0)
 pingcount.Size = UDim2.new(0, 180, 0, 40)
 pingcount.ZIndex = 3
 pingcount.Font = Enum.Font.SourceSansBold
-pingcount.Text = "Around 0 - 500"
+pingcount.Text = "Calculating..."
 pingcount.TextColor3 = Color3.fromRGB(204, 204, 204)
 pingcount.TextSize = 19.000
 
@@ -941,9 +934,9 @@ servpingcount.Position = UDim2.new(0.187840775, 0, 0.495530277, 0)
 servpingcount.Size = UDim2.new(0, 180, 0, 40)
 servpingcount.ZIndex = 3
 servpingcount.Font = Enum.Font.SourceSansBold
-servpingcount.Text = "wasted weeks on this shit"
+servpingcount.Text = "Calculating..."
 servpingcount.TextColor3 = Color3.fromRGB(204, 204, 204)
-servpingcount.TextSize = 17.000
+servpingcount.TextSize = 19.000
 
 MiscScroll.Name = "MiscScroll"
 MiscScroll.Parent = NewFrame
@@ -1204,7 +1197,7 @@ ignorelol_4.Name = "ignorelol"
 ignorelol_4.Parent = MiscScroll
 ignorelol_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ignorelol_4.BackgroundTransparency = 1.000
-ignorelol_4.Position = UDim2.new(0.0248918384, 0, 0.650752544, 0)
+ignorelol_4.Position = UDim2.new(0.0316032469, 0, 0.648937643, 0)
 ignorelol_4.Size = UDim2.new(0, 200, 0, 50)
 ignorelol_4.ZIndex = 3
 ignorelol_4.Font = Enum.Font.SourceSansBold
@@ -1242,7 +1235,7 @@ ignorelol_5.Name = "ignorelol"
 ignorelol_5.Parent = MiscScroll
 ignorelol_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ignorelol_5.BackgroundTransparency = 1.000
-ignorelol_5.Position = UDim2.new(0.0248918384, 0, 0.741496623, 0)
+ignorelol_5.Position = UDim2.new(0.0316032469, 0, 0.739681721, 0)
 ignorelol_5.Size = UDim2.new(0, 200, 0, 50)
 ignorelol_5.ZIndex = 3
 ignorelol_5.Font = Enum.Font.SourceSansBold
@@ -1255,11 +1248,11 @@ flingfalse.Name = "flingfalse"
 flingfalse.Parent = MiscScroll
 flingfalse.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 flingfalse.BackgroundTransparency = 1.000
-flingfalse.Position = UDim2.new(0.533255339, 0, 0.749125123, 0)
+flingfalse.Position = UDim2.new(0.566812396, 0, 0.747310221, 0)
 flingfalse.Size = UDim2.new(0, 66, 0, 40)
 flingfalse.ZIndex = 3
 flingfalse.Font = Enum.Font.SourceSansBold
-flingfalse.Text = "False"
+flingfalse.Text = "Click"
 flingfalse.TextColor3 = Color3.fromRGB(234, 0, 4)
 flingfalse.TextSize = 21.000
 
@@ -1275,6 +1268,31 @@ flingtrue.Font = Enum.Font.SourceSansBold
 flingtrue.Text = "True"
 flingtrue.TextColor3 = Color3.fromRGB(0, 208, 0)
 flingtrue.TextSize = 21.000
+
+psmm.Name = "psmm"
+psmm.Parent = MiscScroll
+psmm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+psmm.BackgroundTransparency = 1.000
+psmm.Position = UDim2.new(0.0316032469, 0, 0.834055603, 0)
+psmm.Size = UDim2.new(0, 200, 0, 50)
+psmm.ZIndex = 3
+psmm.Font = Enum.Font.SourceSansBold
+psmm.Text = "Give Teleport Tool:"
+psmm.TextColor3 = Color3.fromRGB(255, 255, 255)
+psmm.TextSize = 19.000
+psmm.TextXAlignment = Enum.TextXAlignment.Left
+
+tptoolgiv.Name = "tptoolgiv"
+tptoolgiv.Parent = MiscScroll
+tptoolgiv.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tptoolgiv.BackgroundTransparency = 1.000
+tptoolgiv.Position = UDim2.new(0.513121068, 0, 0.841684103, 0)
+tptoolgiv.Size = UDim2.new(0, 66, 0, 40)
+tptoolgiv.ZIndex = 3
+tptoolgiv.Font = Enum.Font.SourceSansBold
+tptoolgiv.Text = "Click"
+tptoolgiv.TextColor3 = Color3.fromRGB(234, 0, 4)
+tptoolgiv.TextSize = 21.000
 
 PlaceTeleporterScroll.Name = "PlaceTeleporterScroll"
 PlaceTeleporterScroll.Parent = NewFrame
@@ -1485,14 +1503,6 @@ TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextSize = 20.000
 TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
 
-WaterProtect.Parent = game.Workspace
-WaterProtect.Size = Vector3.new(218, 1, 252)
-WaterProtect.Transparency = 0.3
-WaterProtect.CFrame = CFrame.new(-475.2548828125, 29.993488311767578, 42.88723373413086)
-WaterProtect.Material = Enum.Material.SmoothPlastic
-WaterProtect.Anchored = true
-
-
 TextLabel_5.Parent = SettingsScroll
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
@@ -1513,7 +1523,7 @@ SettingsImage.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SettingsImage.Position = UDim2.new(0.420483738, 0, 0.206665486, 0)
 SettingsImage.Size = UDim2.new(0, 176, 0, 177)
 SettingsImage.Visible = false
-SettingsImage.ZIndex = 3
+SettingsImage.ZIndex = 999999999
 SettingsImage.Image = "http://www.roblox.com/asset/?id=7059346373"
 SettingsImage.ImageTransparency = 0.900
 
@@ -1536,7 +1546,7 @@ PortalImage.BackgroundTransparency = 1.000
 PortalImage.Position = UDim2.new(0.458965212, 0, 0.27655679, 0)
 PortalImage.Size = UDim2.new(0, 130, 0, 137)
 PortalImage.Visible = false
-PortalImage.ZIndex = 3
+PortalImage.ZIndex = 999999999
 PortalImage.Image = "http://www.roblox.com/asset/?id=1233066225"
 PortalImage.ImageTransparency = 0.900
 
@@ -1547,7 +1557,7 @@ MiscImage.BackgroundTransparency = 1.000
 MiscImage.Position = UDim2.new(0.399175733, 0, 0.207221285, 0)
 MiscImage.Size = UDim2.new(0, 191, 0, 170)
 MiscImage.Visible = false
-MiscImage.ZIndex = 3
+MiscImage.ZIndex = 9999999
 MiscImage.Image = "http://www.roblox.com/asset/?id=11348590078"
 MiscImage.ImageTransparency = 0.900
 
@@ -1558,7 +1568,7 @@ HomeImage.BackgroundTransparency = 1.000
 HomeImage.Position = UDim2.new(0.428183824, 0, 0.20424509, 0)
 HomeImage.Size = UDim2.new(0, 179, 0, 179)
 HomeImage.Visible = false
-HomeImage.ZIndex = 3
+HomeImage.ZIndex = 9999999
 HomeImage.Image = "http://www.roblox.com/asset/?id=4034483344"
 HomeImage.ImageTransparency = 0.900
 
@@ -1569,7 +1579,7 @@ ChangelogImage.BackgroundTransparency = 1.000
 ChangelogImage.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ChangelogImage.Position = UDim2.new(-0.390833735, 0, -0.172161177, 0)
 ChangelogImage.Size = UDim2.new(0, 885, 0, 423)
-ChangelogImage.ZIndex = 8
+ChangelogImage.ZIndex = 99999
 ChangelogImage.Image = "http://www.roblox.com/asset/?id=11530501056"
 ChangelogImage.ImageTransparency = 0.800
 
@@ -1622,6 +1632,15 @@ TextLabel_6.Text = "Draggable"
 TextLabel_6.TextColor3 = Color3.fromRGB(90, 90, 90)
 TextLabel_6.TextSize = 14.000
 
+WaterProtect.Parent = game.Workspace
+WaterProtect.Size = Vector3.new(218, 1, 252)
+WaterProtect.Transparency = 0.3
+WaterProtect.CFrame = CFrame.new(-475.2548828125, 29.993488311767578, 42.88723373413086)
+WaterProtect.Material = Enum.Material.SmoothPlastic
+WaterProtect.Anchored = true
+
+ServicePlayer = game:GetService('Players').LocalPlayer
+PlayerPlayer = game.Players.LocalPlayer
 
 
 local UserInputService = game:GetService("UserInputService")
@@ -2416,6 +2435,23 @@ nocliptrue.MouseButton1Down:Connect(function()
 		Noclipping:Disconnect()
 	end
 	local Clip = true
+end)
+
+tptoolgiv.MouseButton1Down:Connect(function()
+	local IYMouse = game.Players.LocalPlayer:GetMouse()
+	local speaker = game.Players.LocalPlayer
+	local TpTool = Instance.new("Tool")
+	TpTool.Name = "Teleport Tool"
+	TpTool.RequiresHandle = false
+	TpTool.Parent = speaker.Backpack
+	TpTool.Activated:Connect(function()
+		local Char = speaker.Character or workspace:FindFirstChild(speaker.Name)
+		local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
+		if not Char or not HRP then
+			return error("HumanoidRootPart is missing. Either you have God Mode on OR you just dont have a HumanoidRootPart. ", 0)
+		end
+		HRP.CFrame = CFrame.new(IYMouse.Hit.X, IYMouse.Hit.Y + 3, IYMouse.Hit.Z, select(4, HRP.CFrame:components()))
+	end)
 end)
 
 
