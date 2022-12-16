@@ -2438,6 +2438,10 @@ nocliptrue.MouseButton1Down:Connect(function()
 end)
 
 tptoolgiv.MouseButton1Down:Connect(function()
+	tptoolgiv.TextColor3 =  Color3.fromRGB(0, 208, 0)
+	wait(0.3)
+	tptoolgiv.TextColor3 =  Color3.fromRGB(234, 0, 4)
+	
 	local IYMouse = game.Players.LocalPlayer:GetMouse()
 	local speaker = game.Players.LocalPlayer
 	local TpTool = Instance.new("Tool")
