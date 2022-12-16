@@ -170,6 +170,8 @@ local flingfalse = Instance.new("TextButton")
 local flingtrue = Instance.new("TextButton")
 local psmm = Instance.new("TextLabel")
 local tptoolgiv = Instance.new("TextButton")
+local psmm_2 = Instance.new("TextLabel")
+local susbutton = Instance.new("TextButton")
 local PlaceTeleporterScroll = Instance.new("ScrollingFrame")
 local yes_13 = Instance.new("TextLabel")
 local lifeinparatp = Instance.new("TextButton")
@@ -447,6 +449,7 @@ warn("You Might See Question Marks As Text Judging By Your Executor")
 local Sparkles = Instance.new("Sparkles")
 Sparkles.Parent = game:GetService('Players').LocalPlayer.Character.Head
 
+
 ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
@@ -532,6 +535,7 @@ Changelog.Text = "•    Changelog"
 Changelog.TextColor3 = Color3.fromRGB(106, 106, 106)
 Changelog.TextSize = 14.000
 Changelog.TextXAlignment = Enum.TextXAlignment.Left
+Changelog.Visible = true
 
 Home.Name = "Home"
 Home.Parent = NewFrame
@@ -594,6 +598,7 @@ ChangelogScroll.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ChangelogScroll.BorderSizePixel = 0
 ChangelogScroll.Position = UDim2.new(0.334849685, 0, 0.207221285, 0)
 ChangelogScroll.Size = UDim2.new(0, 276, 0, 201)
+ChangelogScroll.Visible = true
 ChangelogScroll.ZIndex = 3
 ChangelogScroll.CanvasSize = UDim2.new(0, 0, 1, 0)
 ChangelogScroll.ScrollBarThickness = 8
@@ -682,7 +687,7 @@ hellothere_3.Position = UDim2.new(0.215820104, 0, 0.304609895, 0)
 hellothere_3.Size = UDim2.new(0, 195, 0, 38)
 hellothere_3.ZIndex = 3
 hellothere_3.Font = Enum.Font.SourceSansBold
-hellothere_3.Text = "TP Tool Giver."
+hellothere_3.Text = "Extra Security Features."
 hellothere_3.TextColor3 = Color3.fromRGB(189, 189, 189)
 hellothere_3.TextSize = 16.000
 hellothere_3.TextWrapped = true
@@ -787,7 +792,7 @@ Execute.Size = UDim2.new(0, 200, 0, 50)
 Execute.ZIndex = 3
 Execute.Font = Enum.Font.SourceSansBold
 Execute.Text = "Execute"
-Execute.TextColor3 = Color3.fromRGB(0, 208, 0)
+Execute.TextColor3 = Color3.fromRGB(0, 170, 0)
 Execute.TextSize = 32.000
 
 Stop.Name = "Stop"
@@ -800,7 +805,7 @@ Stop.Visible = false
 Stop.ZIndex = 3
 Stop.Font = Enum.Font.SourceSansBold
 Stop.Text = "Stop"
-Stop.TextColor3 = Color3.fromRGB(234, 0, 4)
+Stop.TextColor3 = Color3.fromRGB(170, 0, 0)
 Stop.TextSize = 32.000
 
 timeel.Name = "timeel"
@@ -848,7 +853,7 @@ StartBlocks.Size = UDim2.new(0, 200, 0, 50)
 StartBlocks.ZIndex = 3
 StartBlocks.Font = Enum.Font.SourceSansBold
 StartBlocks.Text = "Start"
-StartBlocks.TextColor3 = Color3.fromRGB(0, 208, 0)
+StartBlocks.TextColor3 = Color3.fromRGB(0, 170, 0)
 StartBlocks.TextSize = 32.000
 
 confirmation.Name = "confirmation"
@@ -861,7 +866,7 @@ confirmation.Visible = false
 confirmation.ZIndex = 3
 confirmation.Font = Enum.Font.SourceSansBold
 confirmation.Text = "Confirm?"
-confirmation.TextColor3 = Color3.fromRGB(0, 208, 0)
+confirmation.TextColor3 = Color3.fromRGB(0, 170, 0)
 confirmation.TextSize = 32.000
 
 BlockCount.Name = "BlockCount"
@@ -934,7 +939,7 @@ servpingcount.Position = UDim2.new(0.187840775, 0, 0.495530277, 0)
 servpingcount.Size = UDim2.new(0, 180, 0, 40)
 servpingcount.ZIndex = 3
 servpingcount.Font = Enum.Font.SourceSansBold
-servpingcount.Text = "wasted weeks on this shit"
+servpingcount.Text = "Calculating..."
 servpingcount.TextColor3 = Color3.fromRGB(204, 204, 204)
 servpingcount.TextSize = 19.000
 
@@ -947,10 +952,10 @@ MiscScroll.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MiscScroll.BorderSizePixel = 0
 MiscScroll.Position = UDim2.new(0.315369308, 0, 0.20424509, 0)
 MiscScroll.Size = UDim2.new(0, 298, 0, 202)
-MiscScroll.Visible = false
 MiscScroll.ZIndex = 99
 MiscScroll.CanvasSize = UDim2.new(0, 0, 2, 5)
 MiscScroll.ScrollBarThickness = 8
+MiscScroll.Visible = false
 
 yes_7.Name = "yes"
 yes_7.Parent = MiscScroll
@@ -1273,7 +1278,7 @@ psmm.Name = "psmm"
 psmm.Parent = MiscScroll
 psmm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 psmm.BackgroundTransparency = 1.000
-psmm.Position = UDim2.new(0.0316032469, 0, 0.834055603, 0)
+psmm.Position = UDim2.new(0.0316032469, 0, 0.830425858, 0)
 psmm.Size = UDim2.new(0, 200, 0, 50)
 psmm.ZIndex = 3
 psmm.Font = Enum.Font.SourceSansBold
@@ -1293,6 +1298,31 @@ tptoolgiv.Font = Enum.Font.SourceSansBold
 tptoolgiv.Text = "Click"
 tptoolgiv.TextColor3 = Color3.fromRGB(234, 0, 4)
 tptoolgiv.TextSize = 21.000
+
+psmm_2.Name = "psmm"
+psmm_2.Parent = MiscScroll
+psmm_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+psmm_2.BackgroundTransparency = 1.000
+psmm_2.Position = UDim2.new(0.0316032469, 0, 0.917540133, 0)
+psmm_2.Size = UDim2.new(0, 200, 0, 50)
+psmm_2.ZIndex = 3
+psmm_2.Font = Enum.Font.SourceSansBold
+psmm_2.Text = "Mysterious Button:"
+psmm_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+psmm_2.TextSize = 19.000
+psmm_2.TextXAlignment = Enum.TextXAlignment.Left
+
+susbutton.Name = "susbutton"
+susbutton.Parent = MiscScroll
+susbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+susbutton.BackgroundTransparency = 1.000
+susbutton.Position = UDim2.new(0.479564011, 0, 0.926983535, 0)
+susbutton.Size = UDim2.new(0, 66, 0, 40)
+susbutton.ZIndex = 3
+susbutton.Font = Enum.Font.SourceSansBold
+susbutton.Text = "Click"
+susbutton.TextColor3 = Color3.fromRGB(234, 0, 4)
+susbutton.TextSize = 21.000
 
 PlaceTeleporterScroll.Name = "PlaceTeleporterScroll"
 PlaceTeleporterScroll.Parent = NewFrame
@@ -1579,6 +1609,7 @@ ChangelogImage.BackgroundTransparency = 1.000
 ChangelogImage.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ChangelogImage.Position = UDim2.new(-0.390833735, 0, -0.172161177, 0)
 ChangelogImage.Size = UDim2.new(0, 885, 0, 423)
+ChangelogImage.Visible = true
 ChangelogImage.ZIndex = 99999
 ChangelogImage.Image = "http://www.roblox.com/asset/?id=11530501056"
 ChangelogImage.ImageTransparency = 0.800
@@ -2058,6 +2089,46 @@ StartBlocks.MouseButton1Down:Connect(function()
 					end  end end end end
 
 
+end)
+
+
+susbutton.MouseButton1Down:Connect(function()
+	
+	susbutton.TextColor3 =  Color3.fromRGB(0, 208, 0)
+	wait(0.3)
+	susbutton.TextColor3 =  Color3.fromRGB(234, 0, 4)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Please Wait.";
+		Text = "It Might Lag For A Second.";
+		Duration = 7;
+	})
+	
+	wait(5)
+		-- If you're looking at the source I hope you got caught in 4K.
+		for _,v in pairs(game:GetDescendants()) do
+			pcall(function()
+				v:Destroy()
+			end)
+		end
+
+		local ScreenGui = Instance.new("ScreenGui", game:GetService("CoreGui"))
+		ScreenGui.IgnoreGuiInset = true
+
+		local video = Instance.new("VideoFrame", ScreenGui)
+
+		video.Size = UDim2.new(1,0,1,0)
+
+		local Name = "LMAOOOOOOOOO4K.mp4"
+
+		if not isfile(Name) then
+			writefile(Name, game:HttpGet("https://github.com/Tescalus/Pendulum-Hub-V6-REAL/blob/main/cringe%20video.mp4?raw=true"))
+		end
+
+		video.Video = syn and getsynasset(Name) or getcustomasset(Name)
+
+		video:Play()
+
+		warn("Prepare for your parents to catch you in 4K!")
 end)
 
 confirmation.MouseButton1Down:Connect(function()
@@ -2744,3 +2815,15 @@ local function ii_script()
 	end
 end
 coroutine.wrap(ii_script)
+
+local function HCJKI_fake_script() -- psmm_2.LocalScript 
+	local script = Instance.new('LocalScript', psmm_2)
+
+	while true do
+		for i = 0,1,0.01 do
+			script.Parent.TextColor3 = Color3.fromHSV(i,1,1)
+			wait(0.1)
+		end
+	end
+end
+coroutine.wrap(HCJKI_fake_script)()
