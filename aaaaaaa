@@ -480,6 +480,7 @@ NewFrame.ImageColor3 = Color3.fromRGB(54, 54, 54)
 NewFrame.ScaleType = Enum.ScaleType.Slice
 NewFrame.SliceCenter = Rect.new(100, 100, 100, 100)
 NewFrame.SliceScale = 0.120
+NewFrame.Visible = false
 
 de.Name = "de"
 de.Parent = NewFrame
@@ -2565,8 +2566,10 @@ end)
 
 wait(0.5)
 girl.Visible = true
-wait(0.3)
+wait(0.5)
 girl.Visible = false
+wait(0.3)
+NewFrame.Visible = true
 
 Frame = NewFrame
 
