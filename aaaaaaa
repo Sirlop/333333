@@ -636,7 +636,7 @@ hellothere.Position = UDim2.new(0.215820104, 0, 0.143176094, 0)
 hellothere.Size = UDim2.new(0, 195, 0, 38)
 hellothere.ZIndex = 3
 hellothere.Font = Enum.Font.SourceSansBold
-hellothere.Text = "Server Ping Counter"
+hellothere.Text = "A Mysterious Button."
 hellothere.TextColor3 = Color3.fromRGB(189, 189, 189)
 hellothere.TextSize = 16.000
 hellothere.TextWrapped = true
@@ -793,7 +793,7 @@ Execute.Size = UDim2.new(0, 200, 0, 50)
 Execute.ZIndex = 3
 Execute.Font = Enum.Font.SourceSansBold
 Execute.Text = "Execute"
-Execute.TextColor3 = Color3.fromRGB(0, 170, 0)
+Execute.TextColor3 = Color3.fromRGB(0, 208, 0)
 Execute.TextSize = 32.000
 
 Stop.Name = "Stop"
@@ -806,7 +806,7 @@ Stop.Visible = false
 Stop.ZIndex = 3
 Stop.Font = Enum.Font.SourceSansBold
 Stop.Text = "Stop"
-Stop.TextColor3 = Color3.fromRGB(170, 0, 0)
+Stop.TextColor3 = Color3.fromRGB(234, 0, 4)
 Stop.TextSize = 32.000
 
 timeel.Name = "timeel"
@@ -854,7 +854,7 @@ StartBlocks.Size = UDim2.new(0, 200, 0, 50)
 StartBlocks.ZIndex = 3
 StartBlocks.Font = Enum.Font.SourceSansBold
 StartBlocks.Text = "Start"
-StartBlocks.TextColor3 = Color3.fromRGB(0, 170, 0)
+StartBlocks.TextColor3 = Color3.fromRGB(0, 208, 0)
 StartBlocks.TextSize = 32.000
 
 confirmation.Name = "confirmation"
@@ -867,7 +867,7 @@ confirmation.Visible = false
 confirmation.ZIndex = 3
 confirmation.Font = Enum.Font.SourceSansBold
 confirmation.Text = "Confirm?"
-confirmation.TextColor3 = Color3.fromRGB(0, 170, 0)
+confirmation.TextColor3 = Color3.fromRGB(0, 208, 0)
 confirmation.TextSize = 32.000
 
 BlockCount.Name = "BlockCount"
@@ -940,7 +940,7 @@ servpingcount.Position = UDim2.new(0.187840775, 0, 0.495530277, 0)
 servpingcount.Size = UDim2.new(0, 180, 0, 40)
 servpingcount.ZIndex = 3
 servpingcount.Font = Enum.Font.SourceSansBold
-servpingcount.Text = "Calculating..."
+servpingcount.Text = "wasted weeks on this shit"
 servpingcount.TextColor3 = Color3.fromRGB(204, 204, 204)
 servpingcount.TextSize = 19.000
 
