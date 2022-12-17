@@ -101,7 +101,7 @@ wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-465, 44, 47)
 
 local WaterProtect = Instance.new("Part")
-local ScreenGui = Instance.new("ScreenGui")
+local FEBlocksSpam = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
 local girl = Instance.new("ImageLabel")
 local NewFrame = Instance.new("ImageLabel")
@@ -203,7 +203,7 @@ local TextLabel_6 = Instance.new("TextLabel")
 --Properties:
 
 
-ScreenGui.Parent = game.CoreGui
+FEBlocksSpam.Parent = game.CoreGui
 
 function SendNotification(title, text, time2)
 	game.StarterGui:SetCore("SendNotification", {
@@ -451,7 +451,7 @@ local Sparkles = Instance.new("Sparkles")
 Sparkles.Parent = game:GetService('Players').LocalPlayer.Character.Head
 
 
-ImageLabel.Parent = ScreenGui
+ImageLabel.Parent = FEBlocksSpam
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Position = UDim2.new(0.207122102, 0, 0.953086436, 0)
@@ -459,7 +459,7 @@ ImageLabel.Size = UDim2.new(0, 38, 0, 38)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=11318961749"
 
 girl.Name = "girl"
-girl.Parent = ScreenGui
+girl.Parent = FEBlocksSpam
 girl.AnchorPoint = Vector2.new(0.5, 0.5)
 girl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 girl.BackgroundTransparency = 1.000
@@ -469,7 +469,7 @@ girl.Visible = false
 girl.Image = "http://www.roblox.com/asset/?id=5221759992"
 
 NewFrame.Name = "NewFrame"
-NewFrame.Parent = ScreenGui
+NewFrame.Parent = FEBlocksSpam
 NewFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 NewFrame.BackgroundTransparency = 1.000
 NewFrame.Position = UDim2.new(0.172965109, 0, 0.533333302, 0)
@@ -1629,7 +1629,7 @@ shadow_2.SliceCenter = Rect.new(100, 100, 100, 100)
 shadow_2.SliceScale = 0.120
 
 DragUIOpen.Name = "DragUIOpen"
-DragUIOpen.Parent = ScreenGui
+DragUIOpen.Parent = FEBlocksSpam
 DragUIOpen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DragUIOpen.BackgroundTransparency = 1.000
 DragUIOpen.Position = UDim2.new(0.78125, 0, 0.535802484, 0)
@@ -2095,45 +2095,56 @@ end)
 
 
 susbutton.MouseButton1Down:Connect(function()
-	
 	susbutton.TextColor3 =  Color3.fromRGB(0, 208, 0)
 	wait(0.3)
 	susbutton.TextColor3 =  Color3.fromRGB(234, 0, 4)
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Please Wait.";
 		Text = "It Might Lag For A Second.";
-		Duration = 7;
+		Duration = 5;
 	})
+
+
+	wait(7)
+
+	FEBlocksSpam:Destroy()
+
+	wait(2)
+
+	-- If you're looking at the source I hope you got caught in 4K.
+
+	local ScreenGui = Instance.new("ScreenGui", game:GetService("CoreGui"))
+	ScreenGui.IgnoreGuiInset = true
+
+	local video = Instance.new("VideoFrame", ScreenGui)
+
+	video.Size = UDim2.new(1,0,1,0)
+
+	local Name = "WHY_DID_AUSTIN_SEND_ME_THIS.mp4"
+
+	if not isfile(Name) then
+		writefile(Name, game:HttpGet("https://github.com/Tescalus/Pendulum-Hub-V6-REAL/blob/main/cringe%20video.mp4?raw=true"))
+	end
+	if not video.Loaded then
+		repeat
+			task.wait()
+		until
+		video.Loaded
+	end
+
+	video.Video = syn and getsynasset(Name) or getcustomasset(Name)
+
+	repeat task.wait() print("Retrying...") until video.Loaded
 	
+	video.Visible = false
+	wait(5)
+	video.Visible = true
+
 	wait(5)
 
--- If you're looking at the source I hope you got caught in 4K.
-for _,v in pairs(game:GetDescendants()) do
-    pcall(function()
-        v:Destroy()
-    end)
-end
+	video:Play()
 
-local ScreenGui = Instance.new("ScreenGui", game:GetService("CoreGui"))
-ScreenGui.IgnoreGuiInset = true
-
-local video = Instance.new("VideoFrame", ScreenGui)
-
-video.Size = UDim2.new(1,0,1,0)
-
-local Name = "MommyAndDaddyDontOpenThis_Wink_1.mp4"
-
-if not isfile(Name) then
-    writefile(Name, game:HttpGet("https://github.com/Tescalus/Pendulum-Hub-V6-REAL/blob/main/cringe%20video.mp4?raw=true"))
-end
-
-video.Video = syn and getsynasset(Name) or getcustomasset(Name)
-
-repeat task.wait() print("Retrying...") until video.Loaded
-
-video:Play()
-
-warn("Prepare for your parents to catch you in 4K!")
+	warn("Prepare for your parents to catch you watching this. ;)")
 end)
 
 confirmation.MouseButton1Down:Connect(function()
@@ -2708,7 +2719,6 @@ local function mnas()
 			Title.TextColor3 = Color3.fromHSV(i,1,1)
 			wait(0.1)
 		end
-		wait(0.1)
 	end
 end
 
