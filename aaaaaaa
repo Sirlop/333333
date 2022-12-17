@@ -202,11 +202,6 @@ local TextLabel_6 = Instance.new("TextLabel")
 
 --Properties:
 
-wait(1)
-girl.Visible = true
-wait(0.3)
-girl.visible = false
-wait(0.2)
 
 ScreenGui.Parent = game.CoreGui
 
@@ -2567,6 +2562,11 @@ end)
 
 
 -- Scripts:
+
+wait(0.5)
+girl.Visible = true
+wait(0.3)
+girl.Visible = false
 
 Frame = NewFrame
 
